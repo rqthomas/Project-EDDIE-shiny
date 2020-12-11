@@ -21,7 +21,7 @@ library(rintrojs)
 # Options for Spinner
 options(spinner.color="#0275D8", spinner.color.background="#ffffff", spinner.size=2)
 
-setwd("/srv/shiny-server/appdir/")
+setwd("/srv/shiny-server/module5/")
 
 # Start up
 neon_sites <- readRDS("data/neon_sites.rds")
