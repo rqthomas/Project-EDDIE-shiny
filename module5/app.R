@@ -49,7 +49,7 @@ neon_sites <- neon_sites[neon_sites$type == "Aquatic", ]
 neon_sites_df <- neon_sites_df[neon_sites_df$type == "Aquatic", ]
 
 # Read in assessment questions
-#quest <- read.csv("data/assess_questions.csv", row.names = 1)
+quest <- read.csv("data/assess_questions.csv", row.names = 1)
 
 # Help documentation
 help_text <- read.csv("data/help_text.csv", row.names = 1)
